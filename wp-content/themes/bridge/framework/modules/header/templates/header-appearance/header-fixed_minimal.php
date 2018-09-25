@@ -31,7 +31,7 @@
 									<?php if(is_active_sidebar('woocommerce_dropdown')) {
 										dynamic_sidebar('woocommerce_dropdown');
 									} ?>
-
+										
                                     <div class="side_menu_button">
 										<?php echo qode_get_module_template_part('templates/search/search-button', 'header', '', $params); ?>
                                     </div>

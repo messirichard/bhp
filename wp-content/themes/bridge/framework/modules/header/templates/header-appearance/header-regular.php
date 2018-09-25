@@ -30,6 +30,7 @@
                                     dynamic_sidebar( 'header_right_from_logo' );
                                 } ?>
                             </div>
+                            
                                 <?php if(!$centered_logo) { ?>
                                     <div class="header_inner_right">
                                         <div class="side_menu_button_wrapper right">
@@ -56,21 +57,21 @@
                                             </div>
                                         </div>
                                     </div>
-                                <?php } ?>
-
-                                <nav class="main_menu drop_down <?php echo esc_attr($menu_position); ?>">
-                                    <?php
+                                    <?php } ?>
+                                    
+                                    <nav class="main_menu drop_down <?php echo esc_attr($menu_position); ?>">
+                                            <?php
                                     wp_nav_menu( array( 'theme_location' => 'top-navigation' ,
-                                        'container'  => '',
-                                        'container_class' => '',
-                                        'menu_class' => '',
-                                        'menu_id' => '',
-                                        'fallback_cb' => 'top_navigation_fallback',
-                                        'link_before' => '<span>',
-                                        'link_after' => '</span>',
-                                        'walker' => new qode_type1_walker_nav_menu()
-                                    ));
-                                    ?>
+                                    'container'  => '',
+                                    'container_class' => '',
+                                    'menu_class' => '',
+                                    'menu_id' => '',
+                                    'fallback_cb' => 'top_navigation_fallback',
+                                    'link_before' => '<span>',
+                                    'link_after' => '</span>',
+                                    'walker' => new qode_type1_walker_nav_menu()
+                                ));
+                                ?>
                                 </nav>
                                 <?php if($centered_logo) { ?>
                                     <div class="header_inner_right">

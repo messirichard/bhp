@@ -149,6 +149,9 @@ if(is_array($footer_classes_array) && count($footer_classes_array)) {
 
 		if($display_footer_top) { ?>
 		<div class="footer_top_holder">
+			<div class="img-atas-footer">
+				<img src="http://localhost/bhpnew/wp-content/uploads/2018/09/Untitled-5.png" alt="" class="img-atas-naik-footer">	
+			</div>
             <?php if($footer_top_border_color !== '') { ?>
                 <div <?php qode_inline_style($footer_top_border_style); ?> <?php qode_class_attribute('footer_top_border '.$footer_top_border_in_grid_class); ?>></div>
             <?php } ?>
@@ -156,8 +159,31 @@ if(is_array($footer_classes_array) && count($footer_classes_array)) {
 				<?php if($footer_in_grid){ ?>
 				<div class="container">
 					<div class="container_inner">
+						<div class="img-footer">
+							<img src="http://localhost/bhpnew/wp-content/uploads/2018/09/Untitled-6.png" alt="">	
+						</div>
+						<div class="text-img-footer">
+							<p>
+								Custom Built Hospital & Medical Bed Head Panel
+							</p>	
+						</div>
+						<div class="bawahlogo-footer">
+							<p>
+								<i class="fa fa-phone"></i> 
+								<span class="iconsebelah-footer">+62 21 288006565</span>
+								<span class="garishr-footer"><hv></hv></span>
+								<span class="iconsebelah-footer"><i class="fa fa-envelope"></i></span>
+								<span class="iconsebelah-footer">info@bhpmedical.com</span>
+								<span class="garishr-footer"><hv></hv></span>
+								<span class="iconsebelah-footer"><i class="fa  fa-map-marker"></i></span>
+								<span class="iconsebelah-footer">Jl. Gedung Hijau 18 Jakarta Selatan, DKI Jakarta</span>
+							</p>
+						</div>
+						<div class="menu-footerbaru">
+							<?php dynamic_sidebar( 'footer_column_1' ); ?>
+						</div>
 				<?php } ?>
-						<?php switch ($footer_top_columns) { 
+						<!-- <?php switch ($footer_top_columns) { 
 							case 6:
 						?>
 							<div class="two_columns_50_50 clearfix">
@@ -279,7 +305,7 @@ if(is_array($footer_classes_array) && count($footer_classes_array)) {
 								dynamic_sidebar( 'footer_column_1' );
 							break;
 						}
-						?>
+						?> -->
 				<?php if($footer_in_grid){ ?>
 					</div>
 				</div>
@@ -333,6 +359,14 @@ if(is_array($footer_classes_array) && count($footer_classes_array)) {
 
 		if($display_footer_text){ ?>
 			<div class="footer_bottom_holder">
+				<div class="copyright">
+					Copyright © 2018 BHP Medical - Bed Head Panel.<span style="margin:0 20px;">|</span>	<span>Design by <a href="https://markdesign.net/" style="color:#fff;">Mark Design.</a></span>
+				</div>
+				<div class="social-media">
+					<i class="fa fa-instagram" style="margin:0 10px;"></i>
+					<i class="fa fa-facebook" style="margin:0 10px;"></i>
+					<i class="fa fa-linkedin" style="margin:0 10px;"></i>
+				</div>
                 <?php if($footer_bottom_border_color !== '') { ?>
                     <div <?php qode_inline_style($footer_bottom_border_style); ?> <?php qode_class_attribute('footer_bottom_border '.$footer_bottom_border_in_grid_class); ?>></div>
                 <?php } ?>

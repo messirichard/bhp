@@ -657,6 +657,13 @@ input.wpcf7-form-control.wpcf7-submit:not([disabled]),
 	height: 750px;
 }
 
+	.footer_inner{
+	background-image:url(http://localhost/bhpnew/wp-content/uploads/2018/09/bhp-medical01_09.jpg);
+	background-position: 0 0;
+	}
+	.footer_top_holder,.footer_bottom_holder, .content footer .container {
+	background-color:transparent;
+	}
 
 	.footer_top_holder,	footer #lang_sel > ul > li > a,	footer #lang_sel_click > ul > li > a{
 		background-color: #1c1f50;
@@ -695,16 +702,20 @@ input.wpcf7-form-control.wpcf7-submit:not([disabled]),
     }
     .footer_top a:hover
 	{
-        color: #f85434 !important;
+        color: #ffffff !important;
     }
 
     .footer_top .q_social_icon_holder:hover .simple_social {
-        color: #f85434;
+        color: #ffffff;
     }
 
+	.footer_top_holder{
+	background: url(http://localhost/bhpnew/wp-content/uploads/2018/09/bhp-medical10_02_02.jpg) no-repeat;
+	background-size: cover;
+	}
 
 	.footer_bottom_holder, #lang_sel_footer{
-		background-color:#0f1245;
+		background-color:#111e32;
 	}
 
 
@@ -767,7 +778,7 @@ footer #lang_sel_list.lang_sel_list_vertical a,
 	footer #lang_sel_list.lang_sel_list_vertical a:hover,
 	#lang_sel_footer a:hover,
 	.footer_bottom ul li a:hover {
-	    color: #f85434;
+	    color: #ffffff;
 	}
 
 
