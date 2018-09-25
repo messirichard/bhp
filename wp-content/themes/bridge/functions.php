@@ -3465,3 +3465,39 @@ if(!function_exists('qode_add_grid_lines')) {
 
 	add_filter('qode_after_container_inner_open', 'qode_add_grid_lines');
 }
+function cptui_register_my_cpts() {
+
+	/**
+	 * Post Type: Produk.
+	 */
+
+	$labels = array(
+		"name" => __( "Produk", "" ),
+		"singular_name" => __( "Produk", "" ),
+	);
+
+	$args = array(
+		"label" => __( "Produk", "" ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => false,
+		"rest_base" => "",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"show_in_nav_menus" => true,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => array( "slug" => "produk", "with_front" => true ),
+		"query_var" => true,
+		"supports" => array( "title", "editor", "thumbnail", "custom-fields" ),
+	);
+
+	register_post_type( "produk", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts' );
