@@ -172,9 +172,11 @@ if(is_array($footer_classes_array) && count($footer_classes_array)) {
 								<i class="fa fa-phone"></i> 
 								<span class="iconsebelah-footer">+62 21 288006565</span>
 								<span class="garishr-footer"><hv></hv></span>
+								<span style="background-color: #474f5e;width: 1px;height: 40px;display: inline-block;top: 15px;position: relative;"></span>
 								<span class="iconsebelah-footer"><i class="fa fa-envelope"></i></span>
 								<span class="iconsebelah-footer">info@bhpmedical.com</span>
 								<span class="garishr-footer"><hv></hv></span>
+								<span style="background-color: #474f5e;width: 1px;height: 40px;display: inline-block;top: 15px;position: relative;"></span>
 								<span class="iconsebelah-footer"><i class="fa  fa-map-marker"></i></span>
 								<span class="iconsebelah-footer">Jl. Gedung Hijau 18 Jakarta Selatan, DKI Jakarta</span>
 							</p>

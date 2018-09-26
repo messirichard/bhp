@@ -32,12 +32,21 @@
 							<?php if(!$centered_logo) { ?>
 								<div class="header_inner_right">
 									<div class="side_menu_button_wrapper right">
+										<div>
+											<i class="fa fa-user" aria-hidden="true"></i>
+											<span>081 655 2858</span>
+											<span>|</span>
+											<span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+											<span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+											<span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+										</div>
 										<?php if(is_active_sidebar('header_bottom_right')) { ?>
 											<div class="header_bottom_right_widget_holder"><?php dynamic_sidebar('header_bottom_right'); ?></div>
 										<?php } ?>
 										<?php if(is_active_sidebar('woocommerce_dropdown')) {
 											dynamic_sidebar('woocommerce_dropdown');
 										} ?>
+										
 										<div class="side_menu_button">
 											<?php echo qode_get_module_template_part('templates/search/search-button', 'header', '', $params); ?>
 											<?php echo qode_get_module_template_part('templates/popup-menu/popup-menu-button', 'header', '', $params); ?>
