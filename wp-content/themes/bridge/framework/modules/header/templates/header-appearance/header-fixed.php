@@ -32,7 +32,7 @@
 							<?php if(!$centered_logo) { ?>
 								<div class="header_inner_right">
 									<div class="side_menu_button_wrapper right">
-										<div style="margin-top:35px;">
+										<div style="margin-top:35px;" class="header-logo">
 											<i style="margin-right:30px;" class="fa fa-user" aria-hidden="true"></i>
 											<span>081 655 2858</span>
 											<span style="margin:0 50px;">|</span>
