@@ -148,9 +148,9 @@ if(is_array($footer_classes_array) && count($footer_classes_array)) {
         }
 
 		if($display_footer_top) { ?>
-		<div class="footer_top_holder">
+		<div class="footer_top_holder" style="background-position:center;">
 			<div class="img-atas-footer">
-				<img src="http://localhost/bhpnew/wp-content/uploads/2018/09/Untitled-5.png" alt="" class="img-atas-naik-footer">	
+				<img src="http://localhost/bhpnew/wp-content/uploads/2018/09/Untitled-2-2.png" alt="" class="img-atas-naik-footer">	
 			</div>
             <?php if($footer_top_border_color !== '') { ?>
                 <div <?php qode_inline_style($footer_top_border_style); ?> <?php qode_class_attribute('footer_top_border '.$footer_top_border_in_grid_class); ?>></div>
